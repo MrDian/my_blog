@@ -23,6 +23,9 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public'), {
   maxAge: 10000
 }));
+app.use(express.static(path.join(__dirname, '.well-known'), {
+  maxAge: 10000
+}));
 
 app.use('/', routes);
 app.use('/users', users);

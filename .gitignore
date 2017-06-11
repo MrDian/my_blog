@@ -59,3 +59,4 @@ typings/
 
 nginx
 .DS_Store
+nginx.conf
