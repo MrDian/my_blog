@@ -4,6 +4,7 @@
 注意事项：
 
 > sudo systemctl restart nginx
+> sudo systemctl start nginx
 
 > chrome://net-internals
 
